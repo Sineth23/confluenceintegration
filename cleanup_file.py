@@ -6,7 +6,10 @@ from pdfminer.layout import LTTextContainer, LTChar
 
 def cleanup_file(filename):
     # Define the directory where the files are located
-    directory = "created documentation"
+    cleanup_file(filename,directory):
+    # Define the directory where the files are located
+   
+    directory = f"/home/ec2-user/{directory}/.autodoc/docs/markdown"
 
     # Create the file path by combining the directory and filename
     filepath = os.path.join(directory, filename)
